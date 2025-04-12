@@ -1,0 +1,29 @@
+{
+  "campings":[
+    {
+        "id": 1,
+      "nbPlace": " 1",
+      "dateDebut": "10-12-2002",
+      "dateFin": "12-2-2002",
+      "etat": "true"
+     
+    },
+    {
+        "id": 2,
+      "nbPlace": " 10",
+      "dateDebut": "10-12-2002",
+      "dateFin": "12-2-2002",
+      "etat": "false"
+     
+    },
+    {
+        "id": 3,
+      "nbPlace": " 5",
+      "dateDebut": "10-12-2002",
+      "dateFin": "12-2-2002",
+      "etat": "true"
+     
+    }
+
+  ]  
+}

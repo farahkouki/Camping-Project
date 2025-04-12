@@ -1,0 +1,19 @@
+
+
+<div class="card-container">
+    <div *ngFor="let c of campings" class="card" style="width: 18rem;">
+      <img class="card-img-top" [src]="c.image" alt="{{c.title}}">
+      <div class="card-body">
+        <h5 class="card-title">{{c.title}}</h5>
+        <p class="card-text">Id: {{c.id}}</p>
+        <p class="card-text"> nbPlace: {{c. nbPlace}}</p>
+        <p class="card-text">dateDebut: {{c.dateDebut}}</p>
+        <p class="card-text">dateFin: {{c.dateFin}}</p>
+       <p class="card-text">etat: {{c.etat}}</p>
+
+       <button class="btn btn-primary" routerLink="/Delete(id)"> Delete </button> 
+        
+       
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,49 @@
+
+<h1>Add Camping</h1>
+
+<form [formGroup]="formLogin">
+    
+    <div class="form-group">
+        <label for="idInput">Id</label>
+        <input type="number" class="form-control" id="idInput" placeholder="Id" formControlName="id">
+        <p *ngIf="formLogin.get('id')?.errors?.['required']">L'identifiant est obligatoire.</p>
+    </div>
+
+    
+    <div class="form-group">
+        <label for="nbPlaceInput">Nombre de Places</label>
+        <input type="number" class="form-control" id="nbPlaceInput" placeholder="Nombre de Places" formControlName="nbPlace">
+        <p *ngIf="formLogin.get('nbPlace')?.errors?.['required']">Le nombre de places est obligatoire.</p>
+    </div>
+
+   
+    <div class="form-group">
+        <label for="descriptionInput">Description</label>
+        <input type="text" class="form-control" id="descriptionInput" placeholder="Description" formControlName="description">
+        <p *ngIf="formLogin.get('description')?.errors?.['required']">La description doit contenir au moins 10 caractéres .</p>
+    </div>
+
+    
+    <div class="form-group">
+        <label for="dateDebutInput">Date de Début</label>
+        <input type="date" class="form-control" id="dateDebutInput" placeholder="Date de Début" formControlName="dateDebut">
+        <p *ngIf="formLogin.get('dateDebut')?.errors?.['required']">La date de début est obligatoire.</p>
+    </div>
+
+   
+    <div class="form-group">
+        <label for="dateFinInput">Date de Fin</label>
+        <input type="date" class="form-control" id="dateFinInput" placeholder="Date de Fin" formControlName="dateFin">
+        <p *ngIf="formLogin.get('dateFin')?.errors?.['required']">La date de fin est obligatoire.</p>
+    </div>
+
+   
+    <div class="form-group">
+        <label for="etatInput">État</label>
+        <input type="checkbox" class="form-check-input" id="etatInput" formControlName="etat">
+        <p *ngIf="formLogin.get('etat')?.errors?.['required']">L'état est obligatoire.</p>
+    </div>
+
+    
+    <button type="submit" class="btn btn-primary" (click)="add()" [disabled]="formLogin.invalid">Submit</button>
+</form>
