@@ -1,31 +1,31 @@
-<<<<<<< HEAD
-# TestAngular
+# 🏕️ Camping-Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+**Application Angular de gestion de campings** avec interface moderne et fonctionnalités complètes
 
-## Development server
+## ✨ Fonctionnalités principales
+| Fonctionnalité | Icône | Description |
+|---------------|-------|-------------|
+| 📋 Liste des campings | 🖥️ | Affichage organisé des campings disponibles |
+| ➕ Ajout de campings | 📝 | Formulaire intuitif pour ajouter de nouveaux campings |
+| 🔍 Navigation | 🧭 | Barre de navigation ergonomique |
+| ⚠️ Gestion d'erreurs | ❌ | Page 404 personnalisée |
+| 🗃️ Gestion de données | 🔄 | Service dédié pour les opérations CRUD |
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠️ Stack Technique
+<div align="center">
+  
+| Catégorie | Technologies |
+|-----------|--------------|
+| **Framework** | <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="20" height="20"> Angular 15+ |
+| **Langage** | <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="20" height="20"> TypeScript |
+| **Style** | <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg" width="20" height="20"> CSS3 |
+| **API** | <img src="https://raw.githubusercontent.com/typicode/json-server/master/src/public/logo.png" width="20" height="20"> JSON Server |
 
-## Code scaffolding
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ⚙️ Installation
 
-## Build
+### 📋 Prérequis
+- <img src="https://nodejs.org/static/images/favicons/favicon-32x32.png" width="16" height="16"> Node.js v16+
+- <img src="https://angular.io/assets/images/logos/angular/angular.svg" width="16" height="16"> Angular CLI
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-=======
-# Camping-Project
->>>>>>> 2e1ca2f50cf251dab7af470daaafdf98fdd0125c
